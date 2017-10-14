@@ -1,0 +1,66 @@
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face{
+	font-family: "arial";
+	font-style:normal;
+	font-weight:normal;
+}
+
+@font-face{
+	font-family: "arial";
+	font-style:normal;
+	font-weight:normal;
+}
+
+
+
+
+
+#con .logo{
+	font-family: "arial";
+	text-align: center;
+	font-size: 100px;
+	color: #212121;
+	padding-top : 100px;
+	padding-bottom: 40px;
+}
+
+.text{
+	font-family: "arial";
+	font-size: 20px;
+	text-align: center;
+	padding-top: 20px;
+	color: #979797;
+}
+.text a{
+	color: #686767;
+}
