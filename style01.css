@@ -1,0 +1,206 @@
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face{
+	font-family: "arial";
+	font-style:normal;
+	font-weight:normal;
+}
+
+@font-face{
+	font-family: "arial";
+	font-style:normal;
+	font-weight:normal;
+}
+
+/*==========================================*/
+
+
+
+
+
+
+#container{
+	width: 300px;
+	margin:100px auto;
+	padding: 30px;	
+	/*background-color: #fdc2db;*/
+	box-shadow: 0 0 1px #58585a;
+	background-color: #ffffff;
+	
+}
+
+#container .Header{
+	font-size:65px;
+	font-family: "arial";
+	font-weight: normal ;
+	text-align: center;
+	color: #212121;
+}
+
+
+#container .subheader{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	font-family: "arial";
+	font-weight: normal;
+	font-size: 19px;
+	color: #979797;
+}
+
+
+.content{
+	
+	padding-top: 10px;
+	}
+
+#line {
+	text-align: center;
+	font-family: "arial";
+	font-weight: normal;
+	color: #979797;
+}
+#line .up{
+	letter-spacing: -3px;
+	word-spacing: 20px;
+}
+.button{
+	margin: 10px 50px 10px 0px;
+	width: 200px;
+	padding: 0px;
+	text-align: center;
+	width: 300px;
+	height: 35px;
+	font-weight: normal;
+	background-color: #3897f0;
+	color: white;
+	border : solid;
+	font-family: "arial";
+	font-size: 15px;
+	border-radius: 7px;
+}
+input[type = "submit"]{
+	font-weight: normal;
+	background-color: #3897f0;
+	color: white;
+	border : none;
+	font-family: "arial";
+	font-size: 15px;
+	margin-top: 9px;
+	margin-left: 0px;
+}
+
+input[type = "email"]{
+	padding: 10px 10px;
+	padding-top: 10px;
+	margin: 10px 50px 10px 3px;
+	width: 275px;
+	margin: 3px;
+	border-radius: 4px;
+	border-right-color: #ADADAD;
+	border-bottom-color: #ADADAD;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	background-color: #F7F7F7;
+	height: 20px;
+	font-size: 15px;
+
+}
+
+input[type = "text"]{
+	padding: 10px 10px;
+	padding-top: 10px;
+	margin: 10px 50px 10px 3px;
+	width: 275px;
+	margin: 3px;
+	border-radius: 4px;
+	border-right-color: #ADADAD;
+	border-bottom-color: #ADADAD;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	height: 20px;
+	font-size: 15px;
+	background-color: #F7F7F7;
+
+}
+
+input[type = "password"]{
+	padding: 10px 10px;
+	padding-top: 10px;
+	margin: 10px 50px 10px 3px;
+	width: 275px;
+	margin: 3px;
+	border-radius: 3px;
+	border-right-color: #ADADAD;
+	border-bottom-color: #ADADAD;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	height: 20px;
+	font-size: 15px;
+	background-color: #F7F7F7;
+}
+
+input[name ="singup"]{
+	margin: 10px 50px 10px 0px;
+	width: 200px;
+	padding: 0px;
+	text-align: center;
+	width: 300px;
+	height: 40px;
+	font-weight: normal;
+	background-color: #3897f0;
+	color: white;
+	border : solid;
+	font-family: "arial";
+	font-size: 15px;
+	border-radius: 7px;
+}
+
+#container .Footer{
+	padding: 10px;
+	font-size: 15px;
+	text-align: center;
+	font-family: "arial";
+	font-weight: normal;
+	color: #C6C6C6;
+
+}
+#container .Footer a{
+	color: #979797;
+}
+
